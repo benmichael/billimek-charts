@@ -1,6 +1,6 @@
 # Plex Media Server helm chart
 
-This is an opinionated helm chart for Plex Media Center based on the [official container image](https://hub.docker.com/r/plexinc/pms-docker/).
+This is an opinionated helm chart for Plex Media Center based on the [linuxserver.io container image](https://hub.docker.com/r/linuxserver/plex/). This is because the [official container image](https://hub.docker.com/r/plexinc/pms-docker/) does not include arm builds.
 
 This chart is 'forked' from the excellent [munnerz/kube-plex](https://github.com/munnerz/kube-plex) repo in order to allow for more timely updates and publishing to a helm registry.  **NOTE:** This chart is not compatible as an upgrade from the `kube-plex` chart.
 
